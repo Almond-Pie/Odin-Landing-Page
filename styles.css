@@ -57,10 +57,17 @@ h1{
     background-color: #E5E7EB;
 }
 
-.sign-up{
+.sign-up-a{
     color: #F9FAF8;
     background-color: #3882F6 ;
 }
+
+.sign-up-b{
+    color: #F9FAF8;
+    padding: #3882F6 ;
+    border: #F9FAF8;
+}
+
 .call-to-action{
     background-color: #3882F6 ;
 }
