@@ -1,13 +1,42 @@
 body {
+    display: flex;
+    flex-direction: column;
     font-family: "Roboto";
+    flex-grow: 1;
+
 }
 
-a{text-decoration: none;
-
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 ul {
     list-style-type: none;
-
+    display: flex;
 }
-.he
+
+h1 {
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
+
+.header,.footer,.sub-header {
+    background-color: #1F2937;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+P .sub-header-sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.quote-box {
+    background-color: #E5E7EB;
+}
