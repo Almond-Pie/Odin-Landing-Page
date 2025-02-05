@@ -167,8 +167,8 @@ button {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .box-a .box-b .box-c .box-d{
@@ -186,9 +186,11 @@ div .square{
     margin: 20px;
    background-color: #1F2937;
    padding: 100px;
+   background-r: ;
    border: 10px; ;
    border-color: #3882F6;
    border-style: solid;
+   border-radius: 5px;
 
 }
 
@@ -242,18 +244,23 @@ p .quote-author{
     padding-right: 300px ;
 }
 
+p#sign-up-text{
+    margin: 0px;
+}
+
 .sign-up-a{
     color: #ffffff;
     background-color: #3882F6 ;
 }
 
-.sign-up-b{
+button#bottom.sign-up-b{
     background-color: #3882F6 ;
     outline-color: white;
     color: #ffffff;
     border: 5px;
     border-style: solid;
-    border-color: #ffffff
+    border-color: #ffffff;
+    width: 200px;
 
 }
 
@@ -268,11 +275,14 @@ p .quote-author{
     margin-bottom: 150px;
     background-color: #3882F6 ;
     padding: 50px;
+    border-radius: 15px;
 }
 
 .left{
     display: flex;
     flex-direction:column ;
+    max-width: 800px;
+    border: 5px;
 }
 
 .right{
@@ -280,6 +290,8 @@ p .quote-author{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 #sign-up-text{
