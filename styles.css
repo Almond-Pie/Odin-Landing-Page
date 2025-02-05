@@ -70,8 +70,14 @@ button {
     color: #ffffff;
     border-radius: 10px;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 800;
     border: 0;
+    max-width: 200px;
+}
+button#top.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header,.footer,.sub-header{
@@ -124,7 +130,7 @@ button {
     font-size: 24px;
 }
 
-.sub-header{  
+div.sub-header{  
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -133,23 +139,43 @@ button {
     padding-right: 300px;
     padding-top: 100px;
     padding-bottom:100px;
+    min-width: 500px;
+    flex-wrap: wrap;
+}
+
+#text{
+    padding: 0px;
+    
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 .sub-header-font{
-    width: 400px;
-   display: block;
-   flex: 0 0 50px;  
+
+   display: flex;
+   flex-direction: column;
+   min-width: 300px;
+   flex-wrap: wrap;
+   flex: 1; 
 }
 
-.sub-header-sub{
+div.sub-header-sub{
+    display: flex;
+    flex-direction: column
+    justify-content: start;
     font-size: 18px;
     color: #E5E7EB;
     margin: 0;
     flex: 0 0 50px; 
+
 }
 
-.sub-header-image{
+div.sub-header-image{
     display: flex;
+    flex-wrap: wrap;
+    min-width: 500px;
+    
 }
 
 .randon-informaton{
@@ -186,7 +212,6 @@ div .square{
     margin: 20px;
    background-color: #1F2937;
    padding: 100px;
-   background-r: ;
    border: 10px; ;
    border-color: #3882F6;
    border-style: solid;
@@ -235,13 +260,11 @@ circle {
     font-style: italic;
     color: #1F2937;
 }
-p .quote-author{
-    display: flex;
-    text-align: end;
-    justify-self: end;
-    align-items: end;
-    padding-left: 300px;
-    padding-right: 300px ;
+
+div.quote-author{
+   padding-left: 300px;
+   font-style: italic;
+   font-size: 36px;
 }
 
 p#sign-up-text{
