@@ -108,13 +108,20 @@ div.placeholder-text{
     display: flex;
     height: 200px;
     min-width: 500px;
-    margin-left: 100px;
-   margin-right: 100px;
    background-color: #fff;
    padding: 100px;
    border: 10px; ;
    border-color: #3882F6;
    border-style: solid; 
+}
+
+div.sub-header-font{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-self:center;
+   max-width: 450px;
+   min-width: 460px;
 }
 
 .footer-text{
@@ -154,17 +161,7 @@ div.sub-header{
 
 }
 
-div.sub-header-font{
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   align-self:center;
-   max-width: 450px;
-   min-width: 460px;
-   flex-wrap: wrap;
-   margin-left: 100px;
-   margin-right: 100px;
-}
+
 
 div.sub-header-sub{
     display: flex;
