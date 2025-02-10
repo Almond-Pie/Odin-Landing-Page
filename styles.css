@@ -81,10 +81,6 @@ button#top.button{
     align-items: center;
 }
 
-.header,.footer,.sub-header{
-    background-color: #1F2937;
-}
-
 .header{
     display: flex;
     flex-direction: row;
@@ -93,6 +89,23 @@ button#top.button{
     padding-left:300px;
     padding-right:300px;
     flex: 1 1 auto;
+}
+
+.header,.footer,.sub-header{
+    background-color: #1F2937;
+}
+
+div.sub-header{  
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    padding-bottom:100px;
+    min-width: 500px;
+    flex-wrap: wrap;
 }
 
 .header-links{
@@ -120,6 +133,7 @@ div.sub-header-font{
    flex-direction: column;
    justify-content: space-evenly;
    align-self:center;
+   width: 70%;
    max-width: 450px;
    min-width: 460px;
 }
@@ -140,18 +154,7 @@ div.sub-header-font{
     font-size: 24px;
 }
 
-div.sub-header{  
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items: center;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 100px;
-    padding-bottom:100px;
-    min-width: 500px;
-    flex-wrap: wrap;
-}
+
 
 #text{
     padding: 0px;
@@ -171,14 +174,12 @@ div.sub-header-sub{
     color: #E5E7EB;
     margin: 0;
     flex: 0 0 50px; 
-
 }
 
 div.sub-header-image{
     display: flex;
     flex-wrap: wrap;
     min-width: 500px;
-    
 }
 
 .randon-informaton{
@@ -188,16 +189,16 @@ div.sub-header-image{
     gap: 32px;
     margin-left: 200px;
     margin-right: 200px;
-    
 }
 
-.image-subtext{
+div.image-subtext{
+    width: auto;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: center;
     flex-direction: row;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .box-a .box-b .box-c .box-d{
@@ -206,38 +207,28 @@ div.sub-header-image{
     align-items: center;
 }
 
-div .square{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    width: 200px;
-    margin: 20px;
+div.square{
+    height: auto;
+    width: auto;
     background-color: #1F2937;
     padding: 100px;
    border: 10px; ;
    border-color: #3882F6;
    border-style: solid;
    border-radius: 5px;
-   gap: 10px;
+}
+
+div#wrapper{
+    margin: 10px;
+    max-width: 225px;
 
 }
 
-div #a{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-max-width: 220px;
-flex-shrink: 1;
-}
-
-circle {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+P#circle {
     text-align: center;
+    margin: 0;
+    padding: 0;
+    width: auto;
 }
 
 div.randon-informaton-text{
@@ -289,12 +280,10 @@ button#bottom.sign-up-b{
     border-style: solid;
     border-color: #ffffff;
     width: 200px;
-
 }
 
 
 .call-to-action{
-   
     display: flex;
     flex-direction: row;
     margin-left: 300px;
